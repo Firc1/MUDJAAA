@@ -1,0 +1,14 @@
+// var button = document.getElementById("back-to-top-button");
+
+// window.onscroll = function() {
+//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//         button.style.display = "block";
+//     } else {
+//         button.style.display = "none";
+//     }
+// };
+
+// button.addEventListener("click", function() {
+//     document.body.scrollTop = 0; // Za starije web preglednike
+//     document.documentElement.scrollTop = 0; // Za modernije web preglednike
+// });
