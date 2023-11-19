@@ -1,143 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Opis kompanije">
-    <meta name="keywords" content="">
-    <meta name="author" content="Veljko Pelanovic">
-    <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
+    <meta name="description" content="Opis kompanije" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Veljko Pelanovic" />
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
     <!-- css -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 
-        <title>Galerija</title>
-</head>
+    <title>Galerija</title>
+  </head>
 
-<body  style = "font-family: Raleway; background-color: #202125;">
-    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
-        <div class="wrapper">
-            <div class="container-fluid d-flex">
-                <img src="assets/img/logo.png" class="logo">
-                <a class="navbar-brand" href="index.html">Beograd</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="index.html">Početna</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="onama.html">О Beogradu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="beogradnavodi.html">Beograd na vodi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="galerija.html">Galerija</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="kontakt.html">Kontakt</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="faq.html">Pitanja</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+  <body class="bg-dark">
+    <nav
+      class="navbar navbar-expand-lg bg-dark border-bottom border-body text-light"
+      data-bs-theme="dark"
+    >
+      <div class="wrapper">
+        <div class="container-fluid d-flex">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/img/logo.png" class="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Početna</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="onama.html"
+                  >О Beogradu</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="beogradnavodi.html"
+                  >Beograd na vodi</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="galerija.html"
+                  >Galerija</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="kontakt.html"
+                  >Kontakt</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="faq.html"
+                  >Pitanja</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </nav>
-    
-    <div class="wrapper">
 
-		  <p class="heading">CSS Gallery</p>
-		  <div class="gallery-image">
-			<div class="img-box">
-			  <img src="assets/img/pocetna1" />
-			  <div class="transparent-box">
-				<div class="caption">
-				  <p>Library</p>
-				  <p class="opacity-low">Architect Design</p>
-				</div>
-			  </div> 
-			</div>
-			<div class="img-box">
-			  <img src="https://picsum.photos/350/250/?image=232" alt="" />
-			  <div class="transparent-box">
-				<div class="caption">
-				  <p>Night Sky</p>
-				  <p class="opacity-low">Cinematic</p>
-				</div>
-			  </div>
-			</div>
-			<div class="img-box">
-			  <img src="https://picsum.photos/350/250/?image=431" alt="" />
-			  <div class="transparent-box">
-				<div class="caption">
-				  <p>Tea Talk</p>
-				  <p class="opacity-low">Composite</p>
-				</div>
-			  </div>
-			</div>
-			<div class="img-box">
-			  <img src="https://picsum.photos/350/250?image=474" alt="" />
-			  <div class="transparent-box">
-				<div class="caption">
-				  <p>Road</p>
-				  <p class="opacity-low">Landscape</p>
-				</div>
-			  </div> 
-			</div>
-			<div class="img-box">
-			  <img src="https://picsum.photos/350/250?image=344" alt="" />
-			  <div class="transparent-box">
-				<div class="caption">
-				  <p>Sea</p>
-				  <p class="opacity-low">Cityscape</p>
-				</div>
-			  </div> 
-			</div>
-			<div class="img-box">
-			  <img src="https://picsum.photos/350/250?image=494" alt="" />
-			  <div class="transparent-box">
-				<div class="caption">
-				  <p>Vintage</p>
-				  <p class="opacity-low">Cinematic</p>
-				</div>
-			  </div> 
-			</div>
-		  </div>
+    <div id="galerija">
+      <div class="wrapper">
+        <h2 class="text-light text-center my-4">Galerija Beograda</h2>
 
-			</div>
-
-    
-    <footer class="bg-dark text-light py-3">
-        <div class="wrapper d-flex ">
-            <div class="footerr">
-                <p class="mb-0">Kontakt telefon: 060 123 456</p>
-                <p class="mb-0">Email: GradBeograd@gmail.com</p>
-                <p class="mb-0">Adresa: Dragoslava Jovanovića 2</p>
+        <div class="gallery-image">
+          <div class="img-box">
+            <img src="assets/img/Bg1.jpg" alt="Bg1" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Savamala</p>
+              </div>
             </div>
-            <div style="text-align: right;">
-                <a href="index.html">Početna</a>
-                <a href="onama.html">O Beogradu</a><br>
-                <a href="kontakt.html">Kontakt</a><br>
-                <a href="faq.html">Pitanja</a>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/pocetna4.jpg" alt="pocetna4" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Hram Svetog Save</p>
+              </div>
             </div>
-            
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/pocetna6.jpg" alt="pocetna6" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Knez Mihailova</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/Bg11.jpg" alt="Bg11" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Ada Ciganlija</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/Bg3.jpg" alt="Bg3" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Kalemegdan</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/Bg16.jpg" alt="Bg16" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Beograd na vodi</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/pocetna2.jpg" alt="pocetna2" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Beograd na vodi</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/pocetna3.jpg" alt="pocetna3" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Avala</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/Bg2.jpg" alt="Bg2" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Skadarlija</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/Bg12.jpg" alt="Bg12" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Trg republike</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/Bg4.jpg" alt="Bg4" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Istorijski muzej</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/Bg5.jpg" alt="Bg5" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Muzej Nikole Tesle</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/Bg6.jpg" alt="Bg6" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Muzej Vazduxoplovstva</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/Bg7.jpg" alt="Bg7" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Muzej Vazduxoplovstva</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/Bg8.jpg" alt="Bg8" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Bitef Teatar</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/Bg15.jpg" alt="Bg15" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Narodno pozorište</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/Bg10.jpg" alt="Bg10" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Tašmajdan</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/Bg9.jpg" alt="Bg9" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Tašmajdanski park</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/Bg13.jpg" alt="Bg13" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Slavija</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-box">
+            <img src="assets/img/Bg14.jpg" alt="Bg14" />
+            <div class="transparent-box">
+              <div class="caption">
+                <p>Kuca cveća</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+
+    <button id="bttBtn">^</button>
+    <footer class="bg-dark text-light py-3 border-top">
+      <div class="container">
+        <div class="row text-end">
+          <div class="col-12">
+            <p class="mb-0">Kontakt telefon: 060 123 456</p>
+            <p class="mb-0">Email: GradBeograd@gmail.com</p>
+            <p class="mb-0">Adresa: Dragoslava Jovanovića 2</p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-12">Veljko Pelanović &copy; 2023</div>
+        </div>
+      </div>
     </footer>
 
     <!--bootstrap js-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
